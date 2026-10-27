@@ -1,0 +1,184 @@
+======================================
+Running tb_rv32i_core from tests/
+======================================
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:107: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:108: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:109: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+
+========== RV32I VERIFICATION SUMMARY ==========
+Cycles checked: 10
+Errors: 0
+PASS: RV32I starter tests passed
+================================================
+tests/tb_rv32i_core.sv:192: $finish called at 120000 (1ps)
+======================================
+Running tb_rv32i_extended from tests/
+======================================
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:107: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:108: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:109: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+
+===== EXTENDED RV32I TEST RESULTS =====
+PASS x1 = fffffff8
+PASS x2 = 00000003
+PASS x3 = 0000000a
+PASS x4 = 0000000d
+PASS x5 = 00000007
+PASS x6 = 00000002
+PASS x7 = 0000000b
+PASS x8 = 00000009
+PASS x9 = 00000018
+PASS x10 = 00000005
+PASS x11 = fffffffe
+PASS x12 = 00000001
+PASS x13 = 00000000
+PASS x14 = 00000002
+PASS x15 = 0000000f
+PASS x16 = 0000000c
+PASS x17 = 00000002
+PASS x18 = 00000001
+PASS x19 = 00000000
+PASS x20 = 00000001
+PASS x0 = 00000000
+Cycles checked: 24
+Errors: 0
+PASS: Extended RV32I tests passed
+tests/tb_rv32i_extended.sv:171: $finish called at 261000 (1ps)
+======================================
+Running tb_rv32i_control_flow from tests/
+======================================
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:107: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:108: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:109: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+
+===== CONTROL-FLOW TEST RESULTS =====
+PASS x1 = 00000005
+PASS x2 = 00000005
+PASS x3 = 00000007
+PASS x4 = 0000001c
+PASS x5 = 00000001
+PASS x6 = 0000002c
+PASS x7 = 0000002c
+PASS x8 = 00000008
+PASS x0 = 00000000
+Cycles checked: 18
+Errors: 0
+PASS: Control-flow tests passed
+tests/tb_rv32i_control_flow.sv:158: $finish called at 200000 (1ps)
+======================================
+Running tb_rv32i_upper_imm from tests/
+======================================
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:63: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:65: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:67: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:68: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:70: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:72: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:73: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'instr[31:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:83: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:89: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'funct7[6:0]').
+rtl/rv32i_core.sv:107: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:108: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+rtl/rv32i_core.sv:109: sorry: constant selects in always_* processes are not fully supported (the process will be sensitive to all bits in 'alu_b[31:0]').
+
+===== LUI / AUIPC RESULTS =====
+PASS x1 = 12345000
+PASS x2 = 00002004
+PASS x3 = fffff000
+PASS x4 = 0000100c
+PASS x0 = 00000000
+Errors: 0
+PASS: LUI/AUIPC tests passed
+tests/tb_rv32i_upper_imm.sv:104: $finish called at 101000 (1ps)
+ALL FOUR TESTS PASSED
