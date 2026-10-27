@@ -1,0 +1,7 @@
+
+========== RV32I VERIFICATION SUMMARY ==========
+Cycles checked: 10
+Errors: 0
+PASS: RV32I starter tests passed
+================================================
+tb/tb_rv32i_core.sv:192: $finish called at 120000 (1ps)
