@@ -16,7 +16,13 @@ run_test() {
     echo "Running: ${top}"
     echo "======================================"
 
-    if ! iverilog -g2012 -s "$top" -o "$output" \
+    if [[ "$top" == "tb_rv32i_core" ]]; then
+        if ! iverilog -g2012 -s "$top" -o "$output" \
+            rtl/rv32i_core.sv assertions/rv32i_core_assertions.sv "$tb"; then
+            echo "REGRESSION FAIL: compilation failed for $top"
+            exit 1
+        fi
+    elif ! iverilog -g2012 -s "$top" -o "$output" \
         rtl/rv32i_core.sv "$tb"; then
         echo "REGRESSION FAIL: compilation failed for $top"
         exit 1

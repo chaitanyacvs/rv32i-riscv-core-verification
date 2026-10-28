@@ -19,7 +19,7 @@ The verification environment emphasizes reproducibility, automated execution, cl
 - Verify the functional behavior of an RV32I processor implementation.
 - Exercise instruction execution using directed simulation tests.
 - Check expected results and detect mismatches using testbench checks.
-- Express key design requirements as assertions and formal properties.
+- Express key design requirements as assertions and formal properties
 - Run simulation and formal verification with open-source EDA tools.
 - Automate verification through scripts.
 - Maintain verification logs and document known limitations.

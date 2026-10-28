@@ -31,6 +31,14 @@ module tb_rv32i_core;
         .mem_rdata(mem_rdata)
     );
 
+    rv32i_core_assertions assertions (
+        .clk      (clk),
+        .rst_n    (rst_n),
+        .pc       (pc),
+        .mem_we   (mem_we),
+        .mem_wstrb(mem_wstrb)
+    );
+
     // Combinational instruction and data memory.
     always @(*) begin
         if ((pc[31:2] < 16) && (pc[1:0] == 2'b00))
